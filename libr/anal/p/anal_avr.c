@@ -78,6 +78,8 @@ static int avr_op(RAnal *anal, RAnalOp *op, ut64 addr, const ut8 *buf, int len) 
 		op->val = imm;
 	} else if (!strncmp (str, "push ", 5)) {
 		op->type = R_ANAL_OP_TYPE_PUSH;
+	} else if (!strncmp (str, "pop ", 4)) {
+		op->type = R_ANAL_OP_TYPE_POP;
 	}
 	if (ins == 0) {
 		op->type = R_ANAL_OP_TYPE_NOP;
