@@ -1,0 +1,8 @@
+type.void *.size=16
+type.char *.size=16
+
+type.int=w
+type.int.size=16
+
+type.unsigned int=w
+type.unsigned int.size=16

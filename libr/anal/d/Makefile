@@ -6,6 +6,7 @@ F+= darwin-x86-64
 F+= windows-x86-32
 F+= windows-x86-64
 F+= types
+F+= types-avr-8
 F+= types-x86-16
 F+= types-x86-32
 F+= types-x86-64
